@@ -1,0 +1,31 @@
+.quiz-list {
+  margin-top: 1.5rem;
+}
+
+.quiz-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.quiz-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.quiz-card .small {
+  font-size: 0.9rem;
+}
+
+.quiz-card .meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.muted {
+  color: var(--text-muted);
+}

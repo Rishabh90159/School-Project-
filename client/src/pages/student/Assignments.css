@@ -1,0 +1,45 @@
+.assignment-list {
+  margin-top: 1.5rem;
+}
+
+.assignment-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.assignment-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.assignment-card .small {
+  font-size: 0.9rem;
+}
+
+.assignment-card .meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.submit-section {
+  flex-shrink: 0;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.submit-form input[type="file"] {
+  font-size: 0.85rem;
+}
+
+.muted {
+  color: var(--text-muted);
+}

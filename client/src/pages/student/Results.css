@@ -1,0 +1,29 @@
+.results-list {
+  margin-top: 1.5rem;
+}
+
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.result-row h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.result-row .meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.result-row .score {
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+.muted {
+  color: var(--text-muted);
+}

@@ -1,0 +1,35 @@
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.admin-card {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.admin-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+  color: inherit;
+}
+
+.admin-card-count {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.admin-card-label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.muted {
+  color: var(--text-muted);
+}

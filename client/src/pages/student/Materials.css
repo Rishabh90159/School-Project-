@@ -1,0 +1,36 @@
+.material-list {
+  margin-top: 1.5rem;
+}
+
+.material-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.material-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.material-info .small {
+  font-size: 0.9rem;
+}
+
+.material-info .meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.material-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.muted {
+  color: var(--text-muted);
+}

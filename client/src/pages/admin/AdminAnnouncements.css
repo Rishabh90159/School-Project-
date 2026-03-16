@@ -1,0 +1,32 @@
+.announce-list {
+  margin-top: 1.5rem;
+}
+
+.announce-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.announce-row h4 {
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.announce-content {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  white-space: pre-wrap;
+  margin-bottom: 0.35rem;
+}
+
+.announce-row .meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.muted {
+  color: var(--text-muted);
+}

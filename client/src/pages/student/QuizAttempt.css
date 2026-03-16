@@ -1,0 +1,41 @@
+.quiz-questions {
+  margin: 1.5rem 0;
+}
+
+.question-card {
+  margin-bottom: 1rem;
+}
+
+.question-text {
+  margin-bottom: 0.75rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.option input {
+  margin: 0;
+}
+
+.result-card {
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+.result-card p {
+  margin-bottom: 1rem;
+}
+
+.muted {
+  color: var(--text-muted);
+}

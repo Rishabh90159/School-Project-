@@ -1,0 +1,30 @@
+.admin-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.material-list {
+  margin-top: 1.5rem;
+}
+
+.material-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.material-row h4 {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.material-row .meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.muted {
+  color: var(--text-muted);
+}

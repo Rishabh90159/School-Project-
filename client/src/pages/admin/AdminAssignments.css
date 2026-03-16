@@ -1,0 +1,56 @@
+.assign-list {
+  margin-top: 1.5rem;
+}
+
+.assign-row {
+  margin-bottom: 1rem;
+}
+
+.assign-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.assign-head h4 {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.assign-head .meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.subs-section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.sub-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.grade-form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.grade-form .small {
+  width: 80px;
+  padding: 0.4rem;
+}
+
+.muted {
+  color: var(--text-muted);
+}

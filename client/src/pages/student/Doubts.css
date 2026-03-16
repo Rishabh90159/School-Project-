@@ -1,0 +1,38 @@
+.doubt-form {
+  margin: 1.5rem 0;
+  max-width: 560px;
+}
+
+.section-title {
+  font-size: 1.15rem;
+  margin: 2rem 0 0.75rem;
+}
+
+.doubt-list {
+  margin-top: 0.5rem;
+}
+
+.doubt-card {
+  margin-bottom: 1rem;
+}
+
+.doubt-meta {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.doubt-q {
+  margin-bottom: 0.5rem;
+}
+
+.doubt-a {
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.muted {
+  color: var(--text-muted);
+}
